@@ -7,33 +7,42 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : Clase
 */
 
-
-.cabecera1, .cabecera3{
-    font-weight: bold;
-}
 .menu{
     position: relative;
     width: 100%;
     border-radius: 10px;
-    padding: 30px;
 }
 
 .menu h2{
     margin-bottom: 10px;
 }
 
-.menu a, .menu p{
-    display: block;
+.menu h3{
     font-weight: bold;
     background-color: #ECF0F1;
-    width: 100%;
-    
+    width: 90%;
+    border-radius: 8px;
     padding: 12px 15px;
     line-height: 1.4;
     white-space: normal;
+    color: #0099ff;
+}
+
+.menu a{
+    display: block;
+    font-weight: bold;
+    background-color: #ECF0F1;
+    width: 90%;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 12px 15px;
+    line-height: 1.4;
+    white-space: normal;
+    color: #0099ff;
 }
 
 .menu li{
+    display: block;
     margin: 10px;
     text-align: left;
     background: #ecf0f1;
@@ -47,13 +56,33 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     border-left: 5px solid #251abc;
 }
 
+.tema{
+    background-color: white;
 
-.menu a{
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    width: 90%;
+}
+
+.tema p{
+    font-weight: bold;
+}
+
+.tema a{
     text-decoration: none;
 }
 
+.tema a, .tema p{
+    text-align: left;
+    background-color: transparent;
+    
+    padding: 10px 15px;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+.menu a, .tema a{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
 
 ul {
     list-style: none;
